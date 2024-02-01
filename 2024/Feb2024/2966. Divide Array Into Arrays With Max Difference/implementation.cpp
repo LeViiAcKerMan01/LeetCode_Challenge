@@ -15,6 +15,7 @@ int main(){
 
         if(nums[i+2] - nums[i] > k){
             return{};
+            // here we return without doing anything as it is a wrong case
 
         }
         result.push_back({nums[i], nums[i+1], nums[i+2]});
@@ -25,7 +26,7 @@ int main(){
 
     for(int i = 0; i < m; i++){
         for(int j = 0; j < o; j++){
-            cout<<result[i][j]<<endl;
-        }
+            cout<<result[i][j]<<" ";
+        }cout<<" ";
     }
 }
