@@ -23,7 +23,7 @@ int main(){
     }
     int m = result.size();
     int o = result[0].size();
-
+    // Time complexity in this case is O(n^2)
     for(int i = 0; i < m; i++){
         for(int j = 0; j < o; j++){
             cout<<result[i][j]<<" ";

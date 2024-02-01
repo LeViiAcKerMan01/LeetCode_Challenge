@@ -14,7 +14,7 @@ public:
         
 
             for( int i = j; i < n; i += 3){
-
+            // Time complexity of this function is O(n)
                 if(nums[i+2] - nums[i] > k){
                     return{};
                     // to return without doing anything!!
